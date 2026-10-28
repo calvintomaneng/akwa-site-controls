@@ -1,3 +1,34 @@
-/* WEBSITE VISIBILITY TOGGLE */
 
-/* html { display: none !important; } */
+/* AKWA MARINA | MAINTENANCE MODE */
+
+/* html {
+  overflow: hidden !important;
+}
+
+body::after {
+  content: "AKWA MARINA YACHT CLUB\A\A We're making a few improvements.\A Please check back shortly.";
+
+  white-space: pre-wrap !important;
+  position: fixed !important;
+  inset: 0 !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  padding: 32px !important;
+  box-sizing: border-box !important;
+
+  background: #182542 !important;
+  color: #FAF7EF !important;
+
+  font-family: Georgia, serif !important;
+  font-size: clamp(18px, 3vw, 30px) !important;
+  line-height: 1.6 !important;
+  text-align: center !important;
+
+  z-index: 2147483647 !important;
+  pointer-events: all !important;
+}
+
+*/
